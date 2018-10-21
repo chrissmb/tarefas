@@ -26,3 +26,5 @@ Route::get('/teste', function () {
 Route::get('user/{id}', function ($id) {
     return 'User '.$id;
 });
+
+Route::view('/tarefas', 'tarefas');
